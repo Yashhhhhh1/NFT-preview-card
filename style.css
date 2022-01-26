@@ -1,0 +1,106 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+#card{
+    height: auto;
+    width: 280px;
+    border-radius: 10px;
+    margin: 30px auto;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+}
+
+hr{
+    width: 280px;
+    border-color: hsl(217, 11%, 40%);
+    border-width: .5px;
+}
+
+#image{
+    height: 280px;
+    width: 100%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#container{
+    background-image: url(/images/image-equilibrium.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+    border-radius: 7px;
+    
+}
+
+#view-icon{
+    padding: 116px;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#view-icon:hover{
+    background-color: hsl(178, 100%, 50%, .5);
+    opacity: 1;
+}
+
+#heading{
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#heading:hover{
+    color: cyan;
+}
+
+#description{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);    
+}
+
+#details{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+}
+
+#value{
+    color: cyan;
+}
+
+#time{
+    color: hsl(215, 51%, 70%);
+}
+
+.icons{
+    height: 17px;
+    margin-right: 4px;
+    margin-bottom: -2px;
+}
+
+#avatar-image{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: -10px;
+}
+
+#name{
+    cursor: pointer; 
+    color: white; 
+    font-weight: 300;
+}
+
+#name:hover{
+    color: cyan;
+}
+footer{
+    margin: 15px 0;
+    color: hsl(215, 51%, 70%);
+}
